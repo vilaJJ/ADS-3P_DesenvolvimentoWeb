@@ -7,7 +7,7 @@ Curso: Análise e Desenvolvimento de Sistemas
 Disciplina: Desenvolvimento Web
 Período: 3º
 
-OBS: Realize a execução do arquivo Python com o terminal dentro da pasta CsvToJson/python, para que o diretório relativo funcione corretamente.
+OBS: Realize a execução do arquivo Python com o terminal dentro da pasta CsvParaJson/python, para que o diretório relativo funcione corretamente.
 '''
 
 import csv
