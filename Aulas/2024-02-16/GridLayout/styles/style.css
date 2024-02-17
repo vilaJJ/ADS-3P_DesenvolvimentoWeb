@@ -1,0 +1,56 @@
+.wrapper {
+    display: grid;
+    border-radius: 20%;
+}
+
+.a1 {
+    background-color: blue;
+}
+
+.texto {
+    font-size: xx-large;
+    padding-left: 1.5%;
+}
+
+.div_header {
+    background-color: #FF7BAB;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row: 1;
+}
+
+.div_navbar {
+    background-color: #7DCFFF;
+
+    grid-column: 1;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.div_article {
+    background-color: #FFFFFF;
+
+    grid-column: 2;
+
+    grid-row: 2;
+}
+
+.div_adsExtra {
+    background-color: #FFD179;
+
+    grid-column: 3;
+
+    grid-row: 2;
+}
+
+.div_footer {
+    background-color: #89DCB2;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row: 3;
+}

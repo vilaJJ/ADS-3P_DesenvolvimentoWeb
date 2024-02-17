@@ -10,3 +10,9 @@
 <h3>Additional tips</h3>
 
 <p>Embora programar uma Grid Page Layout usando CSS possa ser um desafio para alunos iniciantes, é uma ótima oportunidade para desenvolver habilidades importantes em programação web e criar uma base sólida para projetos futuros. Com um pouco de prática e perseverança, os alunos podem criar layouts profissionais e esteticamente agradáveis que funcionem em diferentes dispositivos e plataformas.</p>
+
+<a href="https://www.origamid.com/projetos/css-grid-layout-guia-completo/">Link para estudos.</a>
+
+<hr></hr>
+
+<p>Data: 16 de fevereiro de 2024 (2024-02-16)</p>
