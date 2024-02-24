@@ -1,10 +1,48 @@
-.wrapper {
-    display: grid;
-    border-radius: 20%;
+/* Resetar CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.a1 {
-    background-color: blue;
+#pagina {
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+
+    grid-template-areas: 
+        "nav header header"
+        "nav main adsExtra"
+        "nav footer footer";   
+
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 15% 70% 15%;
+}
+
+#pagina > header {
+    grid-area: header;
+    background-color: #7DCFFF;
+}
+
+#pagina > nav {
+    grid-area: nav;
+    background-color: #FF7BAB;    
+}
+
+#pagina > main {
+    grid-area: main;
+    background-color: #FFFFFF;
+}
+
+.adsExtra {
+    grid-area: adsExtra;
+    background-color: #FFD179;
+}
+
+#pagina > footer {
+    grid-area: footer;
+    background-color: #89DCB2;
 }
 
 .texto {
@@ -12,45 +50,8 @@
     padding-left: 1.5%;
 }
 
-.div_header {
-    background-color: #FF7BAB;
-
-    grid-column-start: 1;
-    grid-column-end: 3;
-
-    grid-row: 1;
-}
-
-.div_navbar {
-    background-color: #7DCFFF;
-
-    grid-column: 1;
-
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.div_article {
-    background-color: #FFFFFF;
-
-    grid-column: 2;
-
-    grid-row: 2;
-}
-
-.div_adsExtra {
-    background-color: #FFD179;
-
-    grid-column: 3;
-
-    grid-row: 2;
-}
-
-.div_footer {
-    background-color: #89DCB2;
-
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    grid-row: 3;
+.footer_text {
+    width: 100%;
+    align-items: center;
+    text-align: end;
 }
