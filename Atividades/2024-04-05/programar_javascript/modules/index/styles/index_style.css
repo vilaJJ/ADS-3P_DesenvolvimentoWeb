@@ -1,5 +1,10 @@
+body {
+    height: 100vh;
+}
+
 #conteudo {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    height: auto;
 }
