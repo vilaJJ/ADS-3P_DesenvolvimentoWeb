@@ -1,11 +1,9 @@
-body {
-    height: 100vh;
-}
-
 #conteudo {
     flex-direction: row;
+    padding-top: 2.5%;
 }
 
 .botao_questao {
     margin: 2.5%;
+    width: 400px;
 }
