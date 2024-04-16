@@ -12,7 +12,7 @@ function executarQuestaoAssincrona(milisegundos) {
     });
 }
 
-async function alterarEstado() {
+function alterarEstado() {
     let botaoAction = document.getElementById("button_action");
     let inputTexto = document.getElementById("textarea_insercao");
 
